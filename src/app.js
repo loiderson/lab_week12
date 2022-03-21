@@ -25,3 +25,9 @@ function avggradestu() {
 }
 avggradestu()
 console.log(avggradestu())
+
+function dark_mode(){
+    const dark_toggle = document.querySelector(".light-theme")
+    return dark_toggle.classList.toggle("dark-theme")
+}
+dark_mode()
